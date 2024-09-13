@@ -1,0 +1,8 @@
+/* src/components/ImageSection.css */
+.image-section {
+  @apply w-full h-auto;
+}
+
+.image {
+  @apply w-full h-auto;
+}

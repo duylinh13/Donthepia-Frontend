@@ -1,0 +1,42 @@
+/* Đặt thuộc tính chung cho header */
+header {
+  position: relative;
+}
+
+/* Menu ẩn trên màn hình lớn */
+@media (min-width: 1024px) {
+  .menu {
+    display: flex !important;
+    /* Đảm bảo rằng menu luôn hiển thị trên màn hình lớn */
+  }
+}
+
+/* Menu ẩn trên màn hình nhỏ và hiện ra khi toggle được nhấn */
+.menu-hidden {
+  display: none;
+}
+
+.menu-visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Đảm bảo menu được căn giữa trên màn hình nhỏ */
+}
+
+@media (min-width: 1024px) {
+  .menu-visible {
+    display: flex !important;
+    /* Đảm bảo rằng menu luôn hiển thị trên màn hình lớn */
+  }
+}
+
+/* Cải thiện các yếu tố của menu */
+.menu a {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
