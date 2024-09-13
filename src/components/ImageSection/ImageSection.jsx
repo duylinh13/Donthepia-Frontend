@@ -1,13 +1,11 @@
-// src/components/ImageSection/ImageSection.jsx
 import React from "react";
-import "./ImageSection.css"; // Import file CSS riêng cho ImageSection
 
-const ImageSection = () => {
+import heroImage from "../../assets/images/00-img.png";
+
+export default function ImageSection() {
   return (
-    <section className="image-section">
-      <img src="your-image-url.jpg" alt="Description" className="image" />
-    </section>
+    <div>
+      <img src={heroImage} alt="heroImage" />
+    </div>
   );
-};
-
-export default ImageSection;
+}
