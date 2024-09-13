@@ -1,0 +1,92 @@
+/* MainSection.css */
+
+/* Default padding for all screens */
+.main-section {
+  padding-top: 138px;
+  padding-right: 139px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+}
+
+/* Responsive adjustments for screens smaller than 640px (mobile devices) */
+@media (max-width: 639px) {
+  .main-section {
+    padding: 20px;
+  }
+
+  .text-block h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .text-block p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .image-block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-block img {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsive adjustments for screens between 640px and 1024px (tablets) */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .main-section {
+    padding: 40px;
+  }
+
+  .text-block h1 {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+
+  .text-block p {
+    font-size: 18px;
+  }
+
+  .image-block {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .image-block img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsive adjustments for screens larger than 1024px (desktops) */
+@media (min-width: 1024px) {
+  .main-section {
+    padding: 50px 100px;
+  }
+
+  .text-block h1 {
+    font-size: 64px;
+    margin-bottom: 32px;
+  }
+
+  .text-block p {
+    font-size: 20px;
+  }
+
+  .image-block {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .image-block img {
+    width: auto;
+    height: auto;
+    margin-bottom: 0;
+  }
+}
