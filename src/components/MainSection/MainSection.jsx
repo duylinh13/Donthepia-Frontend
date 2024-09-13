@@ -5,10 +5,10 @@ import "./MainSection.css";
 
 const MainSection = () => {
   return (
-    <section className="main-section flex flex-col lg:flex-row items-start py-10 bg-black">
+    <section className="main-section flex flex-col lg:flex-row items-start py-10 bg-black  ">
       {/* Text Block */}
-      <div className="text-block flex-1 lg:mr-12 mb-10 lg:mb-0">
-        <h1 className="text-[64px] font-normal text-white leading-[1.25] mb-8">
+      <div className="text-block flex-1 lg:mr-12 mb-10 lg:mb-0 pt-[128px] pb-[91px] flex flex-col items-center lg:items-center">
+        <h1 className="text-[64px] font-normal text-white leading-[1.25] mb-8 text-center lg:text-left">
           A digital adventure with
           <br />
           Donthepia, The beginning
@@ -17,7 +17,7 @@ const MainSection = () => {
           <br />
           That connects the world.
         </h1>
-        <p className="text-[20px] font-normal text-[#a1a1a1] leading-[1.6] mt-8">
+        <span className="w-[431px] h-[413px] text-[20px] font-normal leading-[1.6] text-left text-[#a1a1a1] overflow-hidden">
           돈키호테 유토피아에 오신 것을 환영합니다. 옛날 옛적, 돈키호테 유토피아
           세계에 전염병이 발생하며 모든 곳이 중앙집권식으로 오염되고 말았습니다.
           이 오염된 세계에서 우리는 새로운 모험을 시작합니다. 돈키호테는
@@ -27,21 +27,26 @@ const MainSection = () => {
           의미를 다시 찾아가려 합니다. 돈키호테와 함께 새로운 세계를 세우고,
           미래의 예술과 기술을 효과적으로 활용해보세요. 언제든 글로벌 DONQ
           NFT노드 구성에 합류할 수 있습니다. 지금 함께하시겠습니까?
-        </p>
+        </span>
       </div>
 
       {/* Image Block */}
-      <div className="image-block flex flex-col lg:flex-row items-center lg:items-start flex-1">
-        <img
-          src={imgAbout01}
-          className="w-full max-w-[386px] h-auto mb-10 lg:mb-0 lg:mr-8"
-          alt="Detailed view of Donthepia's concept art 01"
-        />
-        <img
-          src={imgAbout02}
-          className="w-full max-w-[395px] h-auto"
-          alt="Detailed view of Donthepia's concept art 02"
-        />
+      <div className="image-block flex flex-col lg:flex-row items-center justify-center flex-1 relative gap-24 pt-[290px] pb-[90px]">
+        <div className="flex flex-col justify-center relative mt-[154px]">
+          <img
+            src={imgAbout01}
+            className="w-[386px] h-[396px] object-cover"
+            alt="Detailed view of Donthepia's concept art 02"
+          />
+        </div>
+
+        <div className="flex flex-col justify-center relative lg:-ml-[51px]">
+          <img
+            src={imgAbout02}
+            className="w-full max-w-[386px] h-auto"
+            alt="Detailed view of Donthepia's concept art 01"
+          />
+        </div>
       </div>
     </section>
   );
