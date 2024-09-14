@@ -24,31 +24,55 @@ const CommunitySection = () => {
       {/* Centered icons in the middle of the large image */}
       <div className="absolute inset-0 flex items-center justify-end pointer-events-none mr-12">
         {/* Render 4 icons vertically aligned */}
-        <div className="flex flex-col space-y-4">
-          <img
-            src={icCircleX}
-            alt="ic-circle-x"
-            className="w-auto h-auto"
-            style={{ width: "auto", height: "auto" }} // Ensure icon size remains unchanged
-          />
-          <img
-            src={icFacebook}
-            alt="Facebook"
-            className="w-auto h-auto"
-            style={{ width: "auto", height: "auto" }}
-          />
-          <img
-            src={icInstagram}
-            alt="Instagram"
-            className="w-auto h-auto"
-            style={{ width: "auto", height: "auto" }}
-          />
-          <img
-            src={icYoutube}
-            alt="YouTube"
-            className="w-auto h-auto"
-            style={{ width: "auto", height: "auto" }}
-          />
+        <div className="flex flex-col space-y-4 pointer-events-auto">
+          <a
+            href="https://twitter.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={icCircleX}
+              alt="Twitter"
+              className="w-auto h-auto"
+              style={{ width: "auto", height: "auto" }} // Ensure icon size remains unchanged
+            />
+          </a>
+          <a
+            href="https://facebook.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={icFacebook}
+              alt="Facebook"
+              className="w-auto h-auto"
+              style={{ width: "auto", height: "auto" }}
+            />
+          </a>
+          <a
+            href="https://instagram.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={icInstagram}
+              alt="Instagram"
+              className="w-auto h-auto"
+              style={{ width: "auto", height: "auto" }}
+            />
+          </a>
+          <a
+            href="https://youtube.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={icYoutube}
+              alt="YouTube"
+              className="w-auto h-auto"
+              style={{ width: "auto", height: "auto" }}
+            />
+          </a>
         </div>
       </div>
 
