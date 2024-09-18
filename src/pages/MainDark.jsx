@@ -6,7 +6,7 @@ import MainSection from "../components/MainSection/MainSection";
 import CommunitySection from "../components/CommunitySection/CommunitySection";
 import AboutSection from "../../src/components/AboutSection/AboutSection";
 import EcoSystemSection from "../components/EcoSystemSection/EcoSystemSection";
-// import FreeCharactersSection from "../../components/FreeCharactersSection/FreeCharactersSection";
+import FreeCharactersSection from "../../src/components/FreeCharactersSection/FreeCharactersSection";
 // import TokenInformationSection from "../../components/TokenInformationSection/TokenInformationSection";
 
 const MainDark2 = () => {
@@ -18,8 +18,8 @@ const MainDark2 = () => {
       <CommunitySection />
       <AboutSection />
       <EcoSystemSection />
-      {/* <FreeCharactersSection />
-      <TokenInformationSection /> */}
+      <FreeCharactersSection />
+      {/* <TokenInformationSection /> */}
     </div>
   );
 };
