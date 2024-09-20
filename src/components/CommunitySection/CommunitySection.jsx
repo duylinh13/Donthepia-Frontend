@@ -4,6 +4,7 @@ import icCircleX from "../../assets/icons/ic-circle-x.png"; // Import the icon
 import icFacebook from "../../assets/icons/ic-circle-facebook.png"; // Import the Facebook icon
 import icInstagram from "../../assets/icons/ic-circle-instagram.png"; // Import the Instagram icon
 import icYoutube from "../../assets/icons/ic-circle-youtube.png"; // Import the YouTube icon
+import "../CommunitySection/CommunitySection.css";
 
 const CommunitySection = () => {
   return (

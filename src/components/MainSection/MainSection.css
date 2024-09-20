@@ -1,0 +1,48 @@
+.main-section {
+  /* add media queries to make the component responsive */
+  @media (min-width: 768px) {
+    /* large screen devices (e.g. desktops) */
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  @media (max-width: 767px) {
+    /* medium screen devices (e.g. tablets) */
+    flex-direction: column;
+    justify-content: center;
+  }
+  @media (max-width: 480px) {
+    /* small screen devices (e.g. mobile phones) */
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.text-block {
+  /* add responsive styles to the text block */
+  @media (min-width: 768px) {
+    width: calc(100% - 300px);
+  }
+  @media (max-width: 767px) {
+    width: calc(100% - 20px);
+  }
+}
+
+.image-block {
+  /* add responsive styles to the image block */
+  @media (min-width: 768px) {
+    gap: 24px;
+  }
+  @media (max-width: 767px) {
+    gap: 12px;
+  }
+}
+
+.image-block img {
+  /* add responsive styles to the images */
+  @media (min-width: 768px) {
+    width: calc(100% - 50px);
+  }
+  @media (max-width: 767px) {
+    width: calc(100% - 20px);
+  }
+}

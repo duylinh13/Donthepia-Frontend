@@ -1,0 +1,31 @@
+@media only screen and (max-width: 768px) {
+  /* Mobile devices */
+  .container {
+    max-width: 300px;
+  }
+  .text-white {
+    font-size: 24px;
+  }
+  .flex {
+    flex-direction: column;
+  }
+  .space-y-4 {
+    margin-bottom: 16px;
+  }
+  .w-full {
+    width: auto;
+  }
+  .h-full {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Small mobile devices */
+  .container {
+    max-width: 200px;
+  }
+  .text-white {
+    font-size: 18px;
+  }
+}

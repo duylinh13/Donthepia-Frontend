@@ -35,7 +35,7 @@ const MainSection = () => {
         <div className="flex flex-col justify-center relative mt-[64px] md:mt-[100px] lg:mt-[154px]">
           <img
             src={imgAbout01}
-            className="w-[300px] md:w-[340px] lg:w-[386px] h-auto object-cover"
+            className="w-full h-auto object-cover"
             alt="Detailed view of Donthepia's concept art 02"
           />
         </div>
@@ -43,7 +43,7 @@ const MainSection = () => {
         <div className="flex flex-col justify-center relative lg:-ml-[51px]">
           <img
             src={imgAbout02}
-            className="w-[300px] md:w-[340px] lg:w-[386px] h-auto"
+            className="w-full h-auto"
             alt="Detailed view of Donthepia's concept art 01"
           />
         </div>
