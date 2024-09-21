@@ -3,7 +3,7 @@ import pieChartImage from "../../assets/images/img-token-info.png"; // Adjust th
 
 const TokenInformationSection = () => {
   return (
-    <section className="bg-black text-white py-16 px-8 h-[1080px]">
+    <section className="bg-black text-white py-16 px-8 h-[1080px] w-[1920px]">
       <div className="max-w-screen-xl mx-auto">
         {/* Title */}
         <h2 className="font-poppins text-[64px] font-normal leading-[1.25] text-center text-white mb-[79px]">
