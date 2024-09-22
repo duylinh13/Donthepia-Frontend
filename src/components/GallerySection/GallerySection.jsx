@@ -20,7 +20,7 @@ const GallerySection = () => {
   ];
 
   return (
-    <div className="bg-black w-[1920px] h-[900px] py-[197px] px-0">
+    <div className="bg-black w-[1920px] h-[800px] py-[190px] px-0">
       <div className="flex justify-start mx-auto">
         {images.map((src, index) => (
           <img
