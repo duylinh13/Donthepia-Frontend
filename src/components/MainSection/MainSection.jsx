@@ -5,7 +5,7 @@ import "./MainSection.css";
 
 const MainSection = () => {
   return (
-    <section className="main-section flex flex-col lg:flex-row items-start py-10 bg-black">
+    <section className="main-section flex flex-col lg:flex-row items-start py-10 bg-black w-[1920px]">
       {/* Text Block */}
       <div className="text-block flex-1 lg:mr-12 mb-10 lg:mb-0 pt-[64px] md:pt-[128px] pb-[64px] md:pb-[91px] flex flex-col items-center lg:items-start px-20">
         <h1 className="text-[32px] md:text-[48px] lg:text-[64px] font-normal text-white leading-[1.25] mb-6 lg:mb-8 text-center lg:text-left">

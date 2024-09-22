@@ -11,7 +11,7 @@ import TokenInformationSection from "../components/TokenInformationSection/Token
 
 const MainDark2 = () => {
   return (
-    <div className="">
+    <div className="bg-black text-white min-h-screen w-full max-w-[1920px] mx-auto overflow-hidden">
       <Header />
       <ImageSection />
       <MainSection />

@@ -3,7 +3,7 @@ import loadmap from "../../assets/images/img-loadmap.png";
 
 const DONQNFTNodes = () => {
   return (
-    <div className="container">
+    <div className="container w-[1920px]">
       <div className="flex justify-content-between">
         <div>
           <h1 className="text-white text-[64px] mb-4 pt-20 pl-20">

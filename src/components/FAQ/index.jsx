@@ -2,7 +2,7 @@ import React from "react";
 
 const FAQ = () => {
   return (
-    <div className="container h-[1000px] relative">
+    <div className="container h-[1000px] relative w-[1920px]">
       {/* Left-side heading */}
       <div className="flex justify-between ">
         <div>

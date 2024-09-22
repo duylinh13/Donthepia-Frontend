@@ -7,7 +7,7 @@ import DonthepiaLandingPage from "../components/DonthepiaLandingPage/DonthepiaLa
 
 const MainDark002 = () => {
   return (
-    <div className="bg-black text-white min-h-screen ">
+    <div className="bg-black text-white min-h-screen w-full max-w-[1920px] mx-auto overflow-hidden">
       <DONQNFTNodes />
       <TeamAndAdvisers />
       <GallerySection />

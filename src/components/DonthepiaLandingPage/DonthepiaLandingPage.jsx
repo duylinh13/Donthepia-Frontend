@@ -10,7 +10,7 @@ import icYoutube from "../../assets/icons/ic-circle-youtube.png";
 
 const DonthepiaLandingPage = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-[#232323] text-white relative">
+    <div className="flex flex-col min-h-screen bg-[#232323] text-white relative w-[1920px]">
       <main className="flex-grow flex flex-col items-center justify-center p-4">
         <h1 className="text-[129px] font-bold mb-4">DONTHEPIA</h1>
         <p className="text-xl mb-8">
