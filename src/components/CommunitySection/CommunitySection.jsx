@@ -102,19 +102,19 @@ const CommunitySection = () => {
         <div className="w-[676px] h-[83px] bg-white rounded-[41.5px] p-[23px_62px_23px_56px] flex justify-between relative">
           {/* Each section with vertical text */}
           <div className="flex flex-col items-center justify-center">
-            <span className="text-[16px] text-custom-dark">NFT Nodes</span>
+            <span className="text-[16px] text-black">NFT Nodes</span>
             <span className="text-[16px] text-black">0000.000</span>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <span className="text-[16px] text-custom-dark">Total burned</span>
+            <span className="text-[16px] text-black">Total burned</span>
             <span className="text-[16px] text-black">0000.000</span>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <span className="text-[16px] text-custom-dark">DONP Price</span>
+            <span className="text-[16px] text-black">DONP Price</span>
             <span className="text-[16px] text-black">0000.000</span>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <span className="text-[16px] text-custom-dark">DONP Holders</span>
+            <span className="text-[16px] text-black">DONP Holders</span>
             <span className="text-[16px] text-black">0000.000</span>
           </div>
         </div>
