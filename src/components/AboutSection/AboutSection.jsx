@@ -18,8 +18,8 @@ const AboutSection = () => {
           </div>
 
           {/* Đoạn text thứ hai */}
-          <div className="w-[660px] text-[20px] font-normal leading-[1.6] tracking-normal text-left text-[#a1a1a1]">
-            <p className="text-white ">
+          <div className="w-full max-w-[660px] text-[16px] md:text-[20px] font-normal leading-[1.6] tracking-normal text-left text-[#a1a1a1]">
+            <p className="text-white">
               DONQ NFT Node는 20번의 반감기가 있습니다. <br />
               반감기에는 DONQ NFT NODE가 100ea ~ 500ea 생성될 때마다 DONQ가
               자동소각됩니다. <br />

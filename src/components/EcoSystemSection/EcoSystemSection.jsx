@@ -6,17 +6,18 @@ const EcoSystemSection = () => {
   return (
     <div className="w-[1920px] h-[1080px]   px-[48px] py-[140px] bg-black">
       {/* Your content here */}
-      <h1 className="text-white text-[64px] mb-4 ">
+      <h1 className="text-white text-[48px] md:text-[64px] mb-4">
         What is an <br /> Eco-System DONQ?
       </h1>
-      <div className="w-[571px] h-[115px] mt-[39px] mr-[19px] mb-[102px]">
-        <p className="font-pretendard text-[20px] leading-[1.6] text-[#a1a1a1]">
-          DONQ는 NFT와 T2E Trading , P2E Game을 결합하여 어떠한 거래에 대해서도
+      <div className="w-full max-w-[571px] mt-[39px] mr-[19px] mb-[102px]">
+        <p className="font-pretendard text-[16px] md:text-[20px] leading-[1.6] text-[#a1a1a1]">
+          DONQ는 NFT와 T2E Trading, P2E Game을 결합하여 어떠한 거래에 대해서도
           중앙 기관이나 제3자에 의한 허가가 필요없는 DAO 조직을 형성하여
           유저들이 자율적으로 판단하고 투표하여 생태계를 이끌고 확장할 수 있도록
           합니다.
         </p>
       </div>
+
       <div className="items-center">
         <div className="w-[1002px] h-[63px] mt-[102px] mr-[259px] mb-[39px] ml-[409px]">
           <h1 className="font-poppins text-[80px] leading-[1] text-[#232323] text-center">

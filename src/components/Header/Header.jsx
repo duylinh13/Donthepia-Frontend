@@ -16,95 +16,49 @@ export const Header = () => {
         {/* Logo Section */}
         <div>
           <img
-            className="w-full cursor-pointer"
+            className="w-[150px] cursor-pointer" // Adjust width for smaller screens
             src={logoDonthepia}
-            srcSet={`${logoDonthepia} `}
             alt="Logo Donthepia"
           />
         </div>
 
         {/* Menu Links */}
         <div
-          className={`nav-links duration-500 md:static absolute bg-black  md:min-h-fit min-h-[60vh] left-0 ${
+          className={`nav-links duration-500 md:static absolute bg-black md:min-h-fit min-h-[60vh] left-0 ${
             isMenuOpen ? "top-[9%]" : "top-[-100%]"
           } md:w-auto w-full flex items-center px-5`}
         >
-          <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8 text-white">
-            <li>
-              <a
-                className="hover:text-gray-500 text-white uppercase"
-                href="donquixote"
-              >
-                DONQUIXOTE
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-500 text-white uppercase"
-                href="About"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-500 text-white uppercase"
-                href="Donquixote NFT"
-              >
-                Donquixote NFT
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-500 text-white uppercase"
-                href="Ecosystem"
-              >
-                Ecosystem
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-500 text-white uppercase"
-                href="Token"
-              >
-                Token
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-500 text-white uppercase"
-                href="Roadmap"
-              >
-                Roadmap
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-500 text-white uppercase"
-                href="Team & Partners"
-              >
-                Team & Partners
-              </a>
-            </li>
-            <li>
-              <a
-                className="hover:text-gray-500 text-white uppercase"
-                href="FAQ"
-              >
-                FAQ
-              </a>
-            </li>
+          <ul className="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-4 text-white">
+            {[
+              "DONQUIXOTE",
+              "About",
+              "Donquixote NFT",
+              "Ecosystem",
+              "Token",
+              "Roadmap",
+              "Team & Partners",
+              "FAQ",
+            ].map((item) => (
+              <li key={item}>
+                <a
+                  className="hover:text-gray-500 text-white uppercase"
+                  href={`#${item}`}
+                >
+                  {item}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
 
         {/* Language and Button */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-4">
           <img
             src={languageIcon}
             alt="Language"
             className="w-6 h-6 object-contain"
           />
-          <button className="bg-[#f1302f] text-black px-5 py-2 rounded-full hover:bg-[#d42b29]">
+          <button className="bg-[#f1302f] text-black px-4 py-2 rounded-full hover:bg-[#d42b29] text-xs md:text-base">
             NFT 구매
           </button>
           <button
