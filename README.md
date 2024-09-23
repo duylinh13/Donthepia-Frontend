@@ -6,5 +6,7 @@ To get started, clone the repository, navigate to the project directory, and run
 The app includes three main pages:
 
 Home Page (/): Renders the MainDark component.
+---------------------------------------------
 Page 2 (/page2): Renders the MainDark002 component.
+-------------------------------------------------
 Page 3 (/page3): Renders the MainDark2 component.
